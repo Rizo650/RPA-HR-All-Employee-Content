@@ -26,15 +26,15 @@ This reduces manual effort from HR teams and ensures consistent communication ac
 
 ## 📂 Project Structure
 
-| Folder/File                    | Description                                                   |
-|--------------------------------|---------------------------------------------------------------|
-| `Main.xaml`                    | Entry point of the automation                                |
-| `OneDrive.xaml`                | Workflow to fetch files from OneDrive/Shared folder          |
-| `ConstructMessage.xaml`        | Builds WhatsApp message (text + attachment)                  |
-| `WhatsApp_OpenAndSendMsg.xaml` | Sends message via WhatsApp Desktop/Web                       |
-| `Data/`                        | Configurations and supporting files                          |
-| `project.json`                 | UiPath project metadata                                      |
-| `README.md`                    | This documentation                                           |
+| Folder/File                         | Description                                                   |
+|-------------------------------------|---------------------------------------------------------------|
+| `Main.xaml`                         | Entry point of the automation                                |
+| `Modular/OneDrive.xaml`             | Workflow to fetch files from OneDrive/Shared folder          |
+| `Modular/ConstructMessage.xaml`     | Builds WhatsApp message (text + attachment)                  |
+| `Modular/WhatsApp_OpenAndSendMsg.xaml` | Sends message via WhatsApp Desktop/Web                       |
+| `Data/`                             | Configurations and supporting files                          |
+| `project.json`                      | UiPath project metadata                                      |
+| `README.md`                         | This documentation                                           |
 
 ---
 
